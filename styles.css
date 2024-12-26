@@ -1,0 +1,122 @@
+/* General Body Styling */
+body {
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the Chat Responses */
+.response-box {
+    background-color: #ffffff; /* Bright white background */
+    color: #333333;           /* Dark gray text */
+    border-left: 5px solid #6c63ff; /* Purple accent */
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-size: 16px;
+    line-height: 1.6;
+    transition: transform 0.2s ease-in-out;
+}
+
+.response-box:hover {
+    transform: scale(1.02); /* Slight zoom on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Sidebar Titles and Subtitles */
+.sidebar-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6c63ff;
+    margin-bottom: 10px;
+}
+
+.sidebar-subtitle {
+    color: #555555;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Styling for History Items */
+.history-item {
+    background-color: #eceff1; /* Light gray background */
+    color: #333333;           /* Dark gray text */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.history-item:hover {
+    background-color: #d7e3fc; /* Light blue on hover */
+    color: #000000;
+}
+
+/* Buttons */
+button {
+    background-color: #6c63ff; /* Purple background */
+    color: #ffffff;           /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #574dcf; /* Darker purple on hover */
+    transform: scale(1.05);    /* Slight zoom on hover */
+}
+
+button:active {
+    background-color: #4339a7; /* Even darker on click */
+    transform: scale(0.97);    /* Slight shrink on click */
+}
+
+/* Input Box Styling */
+textarea, input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #444444; /* Dark gray border to blend with dark theme */
+    border-radius: 8px; /* Rounded corners for modern look */
+    font-size: 14px;
+    margin-bottom: 15px;
+    background-color: #222222; /* Dark background to match theme */
+    color: #ffffff; /* White text for high contrast */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5); /* Subtle inset shadow */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+textarea::placeholder, input[type="text"]::placeholder {
+    color: #bbbbbb; /* Light gray for placeholder text */
+}
+
+/* Focus State for Input */
+textarea:focus, input[type="text"]:focus {
+    border-color: #6c63ff; /* Purple border on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.8); /* Purple glow effect */
+}
+
+
+/* Header Styling */
+h1, h2, h3 {
+    font-weight: bold;
+    color: #6c63ff; /* Purple header text */
+}
+
+/* Footer or Additional Notes */
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: #aaaaaa;
+    margin-top: 20px;
+}
